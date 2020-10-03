@@ -1,0 +1,120 @@
+Index: css/style.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>body{\r\n    font-family: 'Lato', sans-serif;\r\n    background-color: #1a1b1e !important;\r\n    color: #fefdfb !important;\r\n    opacity: 70%;\r\n}\r\n\r\n.center-flex{\r\n    margin-top: 20px;\r\n    border-top-right-radius: 100px;\r\n    border-top-left-radius: 100px;\r\n    align-items: center;\r\n    display: flex;\r\n    flex-direction: column;\r\n    background-color: #171618;\r\n    width: 800px;\r\n    height: 800px;\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n    gap: 25px;\r\n    -webkit-box-shadow: 2px 2px 37px 16px rgba(0,0,0,0.5);\r\n    -moz-box-shadow: 2px 2px 37px 16px rgba(0,0,0,0.5);\r\n    box-shadow: 2px 2px 37px 16px rgba(0,0,0,0.5);\r\n}\r\n\r\n.flex-item{\r\n    border: slategray 4px;\r\n    border-radius: 4px;\r\n}\r\n\r\n.profile-icon-wrapper{\r\n    background-color: #171618;\r\n    border-top-right-radius: 100px;\r\n    border-top-left-radius: 100px;\r\n    width: 800px;\r\n    height: 250px;\r\n    text-align: center;\r\n    margin-top: 200px;\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n    -webkit-box-shadow: 2px 2px 37px 16px rgba(0,0,0,0.5);\r\n    -moz-box-shadow: 2px 2px 37px 16px rgba(0,0,0,0.5);\r\n    box-shadow: 2px 2px 37px 16px rgba(0,0,0,0.5);\r\n}\r\n\r\n.profile-icon{\r\n    border-radius: 400px;\r\n    width: 200px;\r\n    height: auto;\r\n    opacity: 90%;\r\n    user-select: none;\r\n    margin-top: -60px;\r\n    -webkit-box-shadow: 2px 2px 37px 16px rgba(0,0,0,0.5);\r\n    -moz-box-shadow: 2px 2px 37px 16px rgba(0,0,0,0.5);\r\n    box-shadow: 2px 2px 37px 16px rgba(0,0,0,0.5);\r\n}\r\n\r\nbutton{\r\n    width: 100%;\r\n    height: 60px;\r\n    font-size: 30px !important;\r\n    color: #171618 !important;\r\n}\r\n\r\n.button-icon{\r\n   font-size: 50px;\r\n    position: absolute;\r\n    left: 200px;\r\n    color: #171618;\r\n}\r\n\r\n.sub-header{\r\n    margin-top: 30px;\r\n    margin-bottom: 30px;\r\n}\r\n\r\n.header{\r\n    margin-top: 30px;\r\n}\r\n\r\n.button-disabled:hover{\r\n    cursor: help;\r\n}\r\n\r\n.bottom-links{\r\n    display: flex;\r\n    flex-direction: row;\r\n    margin-top: 50px;\r\n    gap: 20px\r\n}\r\n\r\n.bottom-flex-item{\r\n    border: slategray 4px;\r\n    width: 300px;\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- css/style.css	(revision 57e41fb605dc4aee1fe6e6fa435b3ecd8c52c86f)
++++ css/style.css	(date 1601405035588)
+@@ -62,12 +62,12 @@
+     color: #171618 !important;
+ }
+ 
+-.button-icon{
++/*.button-icon{
+    font-size: 50px;
+     position: absolute;
+     left: 200px;
+     color: #171618;
+-}
++}*/
+ 
+ .sub-header{
+     margin-top: 30px;
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"edfbefed-e9cd-442d-b9ba-759504ad24a6\" name=\"Default Changelist\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/index.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/index.html\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"HTML File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1i6K0tcbK7XzL0XXVtgN2D9N1vo\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"ASKED_SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\r\n    <property name=\"DefaultHtmlFileTemplate\" value=\"HTML File\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/img\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\bened\\Downloads\\profile-page\\img\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"edfbefed-e9cd-442d-b9ba-759504ad24a6\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1601222383469</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1601222383469</updated>\r\n      <workItem from=\"1601222385001\" duration=\"1767000\" />\r\n      <workItem from=\"1601311208279\" duration=\"8231000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"WindowStateProjectService\">\r\n    <state x=\"616\" y=\"240\" key=\"run.anything.popup\" timestamp=\"1601320486310\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"616\" y=\"240\" key=\"run.anything.popup/0.0.1920.1040/1920.-378.1080.1880@0.0.1920.1040\" timestamp=\"1601320486310\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 57e41fb605dc4aee1fe6e6fa435b3ecd8c52c86f)
++++ .idea/workspace.xml	(date 1601405046691)
+@@ -1,9 +1,28 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="BranchesTreeState">
++    <expand>
++      <path>
++        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++      </path>
++      <path>
++        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++      </path>
++      <path>
++        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
++      </path>
++    </expand>
++    <select />
++  </component>
+   <component name="ChangeListManager">
+     <list default="true" id="edfbefed-e9cd-442d-b9ba-759504ad24a6" name="Default Changelist" comment="">
++      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -48,12 +67,24 @@
+       <option name="presentableId" value="Default" />
+       <updated>1601222383469</updated>
+       <workItem from="1601222385001" duration="1767000" />
+-      <workItem from="1601311208279" duration="8231000" />
++      <workItem from="1601311208279" duration="8427000" />
++      <workItem from="1601403359515" duration="1685000" />
+     </task>
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+     <option name="version" value="3" />
++  </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State />
++          </value>
++        </entry>
++      </map>
++    </option>
+   </component>
+   <component name="WindowStateProjectService">
+     <state x="616" y="240" key="run.anything.popup" timestamp="1601320486310">
+Index: test.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- test.html	(date 1601404585710)
++++ test.html	(date 1601404585710)
+@@ -0,0 +1,22 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <link  rel="stylesheet" href="css/bootstrap.min.css">
++    <title>Title</title>
++</head>
++<body>
++
++
++<div class="input-group">
++    <div class="input-group-addon">
++        <i class="fas fa-envelope-square"></i>
++            <button type="button" class="btn btn-secondary">
++            Mailto
++    </div>
++    </button>
++</div>
++
++<script src="https://kit.fontawesome.com/5dd929a72d.js" crossorigin="anonymous"></script>
++</body>
++</html>
+\ No newline at end of file
