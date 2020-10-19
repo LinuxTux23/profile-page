@@ -9,8 +9,10 @@ body{
 
 .center-flex{
     margin-top: 20px;
-    border-top-right-radius: 100px;
-    border-top-left-radius: 100px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -36,10 +38,12 @@ body{
     background-color: #171618;
     border-top-right-radius: 100px;
     border-top-left-radius: 100px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
     width: 800px;
     height: 250px;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 120px;
     margin-left: auto;
     margin-right: auto;
     -webkit-box-shadow: 2px 2px 37px 16px rgba(0,0,0,0.5);
@@ -89,10 +93,22 @@ body{
     display: flex;
     flex-direction: row;
     margin-bottom: 0;
-    gap: 20px
+    gap: 20px;
 }
 
 .bottom-flex-item{
     border: slategray 4px;
     width: 300px;
+}
+
+.button-legal-notice{
+    margin-top: 50px;
+}
+
+.second-header{
+    margin-top: 40px;
+}
+
+.owner-information{
+    margin-left: 12px;
 }
