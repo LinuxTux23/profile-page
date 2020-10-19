@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <title>CodingSheep - Profile</title>
 </head>
-<body>
+<body onload="document.body.style.opacity='1'"> <!-- slow fade in -> CSS opacity 0 and transition opacity 1.5s -->
 <div class="profile-icon-wrapper">
     <img src="img/logo.png" class="profile-icon" alt="Coding Sheep Profile Picture" title="Coding Sheep Profile Picture">
     <br>
@@ -55,16 +55,8 @@
     </button>
 
     <div class="bottom-links">
-        <a href="#">
-            <button type="button" class="btn btn-secondary bottom-flex-item button-link">
+        <a href="imprint/" class="btn btn-secondary bottom-flex-item button-link">
                 Imprint
-            </button>
-        </a>
-
-        <a href="https://github.com/LinuxTux23/profile-page">
-            <button type="button" class="btn btn-secondary bottom-flex-item button-link">
-                View on GitHub
-            </button>
         </a>
     </div>
 </div>
