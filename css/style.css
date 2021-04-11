@@ -1,10 +1,14 @@
+:root{
+    color-scheme: dark;
+}
+
 body{
     font-family: 'Lato', sans-serif;
     background-color: #1a1b1e !important;
     color: #fefdfb !important;
     /*opacity: 70%;*/
-    opacity: 0;
-    transition: opacity 1.5s;
+    /*opacity: 1;*/
+    /*transition: opacity 1.5s;*/
 }
 
 .center-flex{
@@ -19,6 +23,28 @@ body{
     background-color: #171618;
     width: 800px;
     height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    gap: 25px;
+    -webkit-box-shadow: 2px 2px 37px 16px rgba(0,0,0,0.5);
+    -moz-box-shadow: 2px 2px 37px 16px rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 37px 16px rgba(0,0,0,0.5);
+}
+
+.legal-notice-center-flex{
+    margin-top: 20px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #171618;
+    width: 800px;
+    height: 920px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
@@ -101,10 +127,6 @@ body{
     width: 300px;
 }
 
-.button-legal-notice{
-    margin-top: 50px;
-}
-
 .second-header{
     margin-top: 40px;
 }
@@ -112,3 +134,18 @@ body{
 .owner-information{
     margin-left: 12px;
 }
+
+.domain-description{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.domain-name{
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.owner-information-content{
+    font-size: 20px;
+}
+
