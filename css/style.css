@@ -1,5 +1,7 @@
 :root{
     color-scheme: dark;
+    /* Custom Cursor */
+    /* cursor: url('../img/black-pointer.png'), pointer;*/
 }
 
 body{

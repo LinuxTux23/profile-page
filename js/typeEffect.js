@@ -8,9 +8,9 @@ function typeWriter() {
     let typeCursor = document.getElementById('typeEffectCursor');
     typeCursor.hidden = false;
 
-    if(i < text.length){
+    if(i < text.length) {
         typeArea.innerText += text.charAt(i);
         i++;
-        setTimeout(typeWriter, velocity);
+        setTimeout(typeWriter, 100);
     }
 }
