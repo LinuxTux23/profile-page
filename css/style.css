@@ -78,6 +78,12 @@ body{
     color: #171618 !important;
 }
 
+.button-link:hover {
+    -webkit-box-shadow: 4px 10px 27px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 4px 10px 27px -3px rgba(0, 0, 0, 0.75);
+    box-shadow: 4px 10px 27px -3px rgba(0, 0, 0, 0.75);
+}
+
 .header{
     margin-top: 30px;
 }

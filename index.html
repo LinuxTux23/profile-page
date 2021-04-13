@@ -10,12 +10,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <title>CodingSheep - Profile</title>
 </head>
-<body>
+<body onload="typeWriter('typeEffectArea', 'typeEffectCursor', 'CodingSheep', 100)">
 
 <div class="profile-icon-wrapper">
     <img src="img/logo.png" class="profile-icon" alt="Coding Sheep Profile Picture" title="Coding Sheep Profile Picture">
     <br>
-    <h1 class="header">@ CodingSheep</h1>
+    <h1 class="header">@ <span id="typeEffectArea"></span> <span id="typeEffectCursor">|</span></h1>
 </div>
 
 <div class="center-flex">
@@ -68,5 +68,7 @@
     </a>
 </div>
 
+
+<script src="js/typeEffect.js" async defer></script>
 </body>
 </html>
