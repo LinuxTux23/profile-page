@@ -1,7 +1,5 @@
 :root{
     color-scheme: dark;
-    /* Custom Cursor */
-    /* cursor: url('../img/black-pointer.png'), pointer;*/
 }
 
 body{
@@ -132,7 +130,7 @@ body{
 }
 
 .domain-name{
-    font-size: 15px;
+    font-size: 20px;
     margin-bottom: 30px;
 }
 

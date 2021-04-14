@@ -2,10 +2,10 @@
 let text = 'CodingSheep';
 let velocity = 100;
 let i = 0;
+let typeArea = document.getElementById('typeEffectArea');
+let typeCursor = document.getElementById('typeEffectCursor');
 
 function typeWriter() {
-    let typeArea = document.getElementById('typeEffectArea');
-    let typeCursor = document.getElementById('typeEffectCursor');
     typeCursor.hidden = false;
 
     if(i < text.length) {
@@ -13,4 +13,5 @@ function typeWriter() {
         i++;
         setTimeout(typeWriter, 100);
     }
+
 }
