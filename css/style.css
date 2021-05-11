@@ -4,7 +4,7 @@
 
 body{
     font-family: 'Lato', sans-serif;
-    background-color: #171B1C /*#1a1b1e*/ !important;
+    background-color: #1a1b1e !important;
     color: #fefdfb !important;
 }
 
@@ -25,7 +25,7 @@ body{
     align-items: center;
     display: flex;
     flex-direction: column;
-    background-color: #171618;
+    background-color: #1F1F21;
     width: 800px;
     padding: 20px;
     margin-left: auto;
@@ -43,7 +43,7 @@ body{
 }
 
 .profile-icon-wrapper{
-    background-color: #171618;
+    background-color: #1F1F21;
     border-top-right-radius: 100px;
     border-top-left-radius: 100px;
     border-bottom-right-radius: 10px;
@@ -75,7 +75,7 @@ body{
     width: 100%;
     height: 60px;
     font-size: 30px !important;
-    color: #171618 !important;
+    color: #2B2B2B !important;
 }
 
 .button-link:hover {
@@ -98,7 +98,7 @@ body{
     margin-bottom: 40px !important;
     text-align: center;
     padding: 50px 30px 40px 30px;
-    background-color: #171618;
+    background-color: #1F1F21;
     border-bottom-right-radius: 100px;
     border-bottom-left-radius: 100px;
     width: 800px;
@@ -139,7 +139,7 @@ body{
 }
 
 .sub-header-wrapper{
-    background-color: #171618;
+    background-color: #1F1F21;
     margin-top: 40px;
     margin-bottom: 25px;
     border-radius: 10px;
