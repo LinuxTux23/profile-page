@@ -14,63 +14,66 @@
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="fa/css/all.min.css">
     <link rel="icon" href="img/favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <title>CodingSheep - Profile</title>
 </head>
 <body onload="typeWriter()">
 
-    <div class="profile-icon-wrapper">
+    <main>
 
-        <img src="img/logo.png" class="profile-icon"  alt="Coding Sheep Profile Picture" title="Coding Sheep Profile Picture">
-        <br>
-        <h1 class="header">@ <span id="typeEffectArea"></span> <span id="typeEffectCursor">|</span></h1>
+        <div class="profile-icon-wrapper">
 
-    </div>
+            <img src="svg/logo/logo.svg" class="profile-icon"  alt="Coding Sheep Profile Picture" title="Coding Sheep Profile Picture">
+            <br>
+            <h1 class="header">@ <span id="typeEffectArea"></span> <span id="typeEffectCursor">|</span></h1>
 
-    <div class="center-flex">
-
-        <a href="https://github.com/LinuxTux23" rel="noreferrer" target="_blank" class="btn btn-secondary flex-item button-link">
-            <i class="fab fa-github-square button-icon"></i>
-            GitHub
-        </a>
-
-        <a href="https://www.instagram.com/linuxtux23" rel="noreferrer" target="_blank" class="btn btn-secondary flex-item button-link">
-            <i class="fab fa-instagram-square button-icon"></i>
-            Instagram
-        </a>
-
-        <a href="https://discordapp.com/users/#5575" rel="noreferrer" target="_blank" class="btn btn-secondary flex-item button-link">
-            <i class="fab fa-discord button-icon"></i>
-            Discord
-        </a>
-
-        <a href="mailto:mail@codingsheep.de" class="btn btn-secondary flex-item button-link">
-            <i class="fas fa-envelope-square button-icon"></i>
-            Send Email
-        </a>
-
-        <div class="sub-header-wrapper">
-            <div class="subheader">
-                Web Apps:
-            </div>
         </div>
 
-        <a href="#" rel="noreferrer" target="_blank" class="btn btn-secondary flex-item button-link">
-            <i class="fas fa-stream button-icon"></i>
-            Status Page - Currently not available
-        </a>
+        <div class="center-flex">
 
-    </div>
+            <a href="https://github.com/LinuxTux23" rel="noreferrer" target="_blank" class="btn btn-secondary flex-item button-link">
+                <img src="svg/icons/github-brands.svg" class="button-icon">
+                GitHub
+            </a>
 
-    <div class="bottom-links">
-        <a href="legal-notice/" class="btn btn-secondary bottom-flex-item button-link button-legal-notice">
-            <i class="fas fa-balance-scale-left"></i>
-            Legal Notice
-        </a>
-    </div>
+            <a href="https://www.instagram.com/linuxtux23" rel="noreferrer" target="_blank" class="btn btn-secondary flex-item button-link">
+                <img src="svg/icons/instagram-brands.svg" class="button-icon">
+                Instagram
+            </a>
 
+            <a href="https://discordapp.com/users/#5575" rel="noreferrer" target="_blank" class="btn btn-secondary flex-item button-link">
+                <img src="svg/icons/discord-brands.svg" class="button-icon">
+                Discord
+            </a>
+
+            <a href="mailto:mail@codingsheep.de" class="btn btn-secondary flex-item button-link">
+                <img src="svg/icons/envelope-regular.svg" class="button-icon">
+                Send Email
+            </a>
+
+            <div class="sub-header-wrapper">
+                <div class="subheader">
+                    <img src="svg/icons/rocket-solid.svg" class="button-icon">
+                    Web Apps:
+                </div>
+            </div>
+
+            <a href="#" class="btn btn-secondary flex-item button-link disabled">
+                <img src="svg/icons/stream-solid.svg" class="button-icon">
+                Status Page - Currently not available
+            </a>
+
+        </div>
+
+        <div class="bottom-links">
+            <a href="legal-notice/" class="btn btn-secondary bottom-flex-item button-link button-legal-notice" onclick="">
+                <img src="svg/icons/link-solid.svg" class="button-icon">
+                Legal Notice
+            </a>
+        </div>
+
+    </main>
 
 <script src="js/typeEffect.min.js" async defer></script>
 </body>

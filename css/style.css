@@ -69,6 +69,7 @@ body{
     -webkit-box-shadow: 2px 2px 37px 16px rgba(0,0,0,0.5);
     -moz-box-shadow: 2px 2px 37px 16px rgba(0,0,0,0.5);
     box-shadow: 2px 2px 37px 16px rgba(0,0,0,0.5);
+    -webkit-user-drag: none;
 }
 
 .button-link{
@@ -82,6 +83,12 @@ body{
     -webkit-box-shadow: 4px 10px 27px -3px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 4px 10px 27px -3px rgba(0, 0, 0, 0.75);
     box-shadow: 4px 10px 27px -3px rgba(0, 0, 0, 0.75);
+}
+
+.button-icon{
+    margin-top: -6px;
+    margin-right: 10px;
+    width: 30px;
 }
 
 .header{
@@ -157,4 +164,13 @@ body{
     user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
+}
+
+.font-awesome-license{
+    margin-left: 12px;
+}
+
+.font-awesome-license-content{
+    text-align: center;
+    font-size: 20px;
 }
